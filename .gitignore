@@ -1,0 +1,57 @@
+# Logs
+# Ignore various log files generated during development
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Diagnostic reports
+# Ignore diagnostic report files with a specific naming pattern
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Runtime data
+# Ignore runtime data files like process IDs and locks
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Directory for instrumented libs
+# Ignore a directory used for instrumented libraries
+lib-cov
+
+# Coverage directory
+# Ignore coverage-related files and directories
+coverage
+*.lcov
+.nyc_output
+
+# TypeScript-related files and cache
+# Ignore TypeScript-related files and cache
+typings/
+*.tsbuildinfo
+
+# Optional npm cache and eslint cache
+# Ignore npm and ESLint caches
+.npm
+.eslintcache
+
+# Microbundle cache
+# Ignore cache directories related to microbundle
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history and 'npm pack' output
+# Ignore REPL history and 'npm pack' output files
+.node_repl_history
+*.tgz
+
+# Yarn Integrity file and dotenv environment variables
+# Ignore Yarn integrity file and dotenv environment variables
+.yarn-integrity
+.env
+.env.test
