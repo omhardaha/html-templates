@@ -5,3 +5,11 @@ li {
 * {
 	font-family: "Poppins", sans-serif;
 }
+
+.section-title {
+	text-align: center;
+	font-size: 2rem;
+	color: rgb(63, 61, 61);
+	font-weight: 800;
+	margin-bottom: 10px;
+}
