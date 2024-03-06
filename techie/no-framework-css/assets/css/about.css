@@ -1,0 +1,13 @@
+.about-section {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	margin: 40px;
+}
+.about-section__headings h2 {
+	font-size: 2rem;
+	color: rgb(54, 52, 52);
+}
+.about-section__image img {
+	object-fit: cover;
+	width: 100%;
+}
