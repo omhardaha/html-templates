@@ -1,0 +1,29 @@
+.stats-section {
+	background-color: #4158d0;
+	background-image: linear-gradient(
+		43deg,
+		#5845f8 0%,
+		#663aec 46%,
+		#7a27d8 100%
+	);
+}
+.stats-items {
+	padding: 30px;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	display: flex;
+	justify-content: space-around;
+	color: white;
+	text-align: center;
+}
+
+.stats-items div span {
+	font-size: 1rem;
+	color: rgb(232, 230, 230);
+}
+.stats-items div b {
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 2.2rem;
+}
