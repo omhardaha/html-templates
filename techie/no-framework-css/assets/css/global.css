@@ -9,7 +9,16 @@ li {
 .section-title {
 	text-align: center;
 	font-size: 2rem;
-	color: rgb(63, 61, 61);
+	color: rgb(69, 68, 68);
 	font-weight: 800;
 	margin-bottom: 10px;
+}
+
+.section-desc {
+	text-align: center;
+	margin-left: 10px;
+	margin-right: 10px;
+	line-height: 30px;
+	letter-spacing: 0.3px;
+	color: rgb(91, 88, 88);
 }
