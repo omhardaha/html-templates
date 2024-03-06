@@ -1,3 +1,15 @@
+.nav-container {
+	background: #925fff;
+}
+
 .nav-bar {
 	display: flex;
+	padding: 40px;
+	justify-content: space-between;
+	color: #ffffff;
+}
+
+.nav-logo b {
+	font-weight: 700;
+	font-size: 2rem;
 }
