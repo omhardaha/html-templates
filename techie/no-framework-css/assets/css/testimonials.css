@@ -1,0 +1,19 @@
+.testimonial-containers {
+	display: grid;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.testimonail-quotes .end-quote {
+	transform: rotate(180deg);
+}
+
+.testimonail-quotes p {
+	display: inline;
+}
+
+.testimonial-user-image {
+	height: 50px;
+	width: 50px;
+	object-fit: cover;
+	border-radius: 100%;
+}

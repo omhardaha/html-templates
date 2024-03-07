@@ -20,3 +20,8 @@ li {
 	letter-spacing: 0.3px;
 	color: rgb(91, 88, 88);
 }
+
+.section-margin{
+	margin-left: 40px;
+	margin-right: 40px;
+}
