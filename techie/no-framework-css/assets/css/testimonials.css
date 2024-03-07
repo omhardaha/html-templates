@@ -1,6 +1,30 @@
 .testimonial-containers {
 	display: grid;
 	grid-template-columns: repeat(3, minmax(0, 1fr));
+	justify-content: space-around;
+}
+
+.testimonial-card {
+	padding: 10px;
+	margin: 10px;
+}
+
+.testimonail-quotes {
+	padding: 20px;
+	padding-bottom: 90px;
+	color: rgb(38, 42, 44);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.testimonial-user {
+	position: relative;
+	top: -40px;
+}
+
+.testimonial-user h2 {
+	margin: 0;
+	font-weight: 800;
+	color: #2c4964;
 }
 
 .testimonail-quotes .end-quote {
@@ -12,8 +36,9 @@
 }
 
 .testimonial-user-image {
-	height: 50px;
-	width: 50px;
+	width: 90px;
+	height: 90px;
 	object-fit: cover;
 	border-radius: 100%;
+	border: 3px solid white;
 }
