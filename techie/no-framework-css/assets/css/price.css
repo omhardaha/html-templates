@@ -1,0 +1,16 @@
+.pricing-section__price-options {
+	display: grid;
+	grid-template-columns: repeat(4, minmax(0, 1fr));
+	text-align: center;
+	gap: 20px;
+}
+
+.pricing-section__price-options .price-container {
+	background-color: white;
+
+}
+
+.pricing-section__price-options h2 {
+	font-weight: 600;
+	color: var(--sub-title-text-color);
+}

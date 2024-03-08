@@ -2,6 +2,7 @@
 	--alter-bg-color: #f9f8ff;
 	--desc-text-color: #444444;
 	--user-sub-heading-text-color: #999;
+	--sub-title-text-color:  rgb(69, 68, 68);
 }
 
 * {
@@ -36,4 +37,8 @@ li {
 .section-margin {
 	padding-left: 40px;
 	padding-right: 40px;
+}
+
+.box-shadow-med{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
