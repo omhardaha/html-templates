@@ -10,10 +10,11 @@
 }
 
 .testimonail-quotes {
+	background: white;
 	padding: 20px;
 	border-radius: 6px;
 	padding-bottom: 70px;
-	color: rgb(38, 42, 44);
+	color: var(--desc-text-color);
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -21,17 +22,20 @@
 	margin-left: 20px;
 	position: relative;
 	top: -40px;
-
 }
 
 .testimonial-user h2 {
+	font-size: 1.3rem;
 	margin: 0;
+	margin-bottom: 4px;
 	font-weight: 800;
 	color: #2c4964;
 }
 
 .testimonial-user span {
 	font-weight: 700;
+	margin-top: 10px;
+	color: var(--user-sub-heading-text-color);
 }
 
 .testimonail-quotes .end-quote {
@@ -49,5 +53,9 @@
 	height: 90px;
 	object-fit: cover;
 	border-radius: 100%;
-	border: 3px solid white;
+	border: 5px solid white;
+}
+
+svg {
+	fill: aqua;
 }

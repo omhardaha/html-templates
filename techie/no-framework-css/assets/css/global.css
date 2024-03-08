@@ -1,5 +1,7 @@
 :root {
 	--alter-bg-color: #f9f8ff;
+	--desc-text-color: #444444;
+	--user-sub-heading-text-color: #999;
 }
 
 * {
@@ -28,7 +30,7 @@ li {
 	text-align: center;
 	line-height: 30px;
 	letter-spacing: 0.3px;
-	color: rgb(91, 88, 88);
+	color: var(--desc-text-color)
 }
 
 .section-margin {
