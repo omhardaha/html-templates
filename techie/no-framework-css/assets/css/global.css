@@ -1,17 +1,27 @@
-li {
-	list-style: none;
+:root {
+	--alter-bg-color: #f9f8ff;
 }
 
 * {
 	font-family: "Poppins", sans-serif;
 }
 
+li {
+	list-style: none;
+}
+
+/* section global styles   */
 .section-title {
 	text-align: center;
 	font-size: 2rem;
 	color: rgb(69, 68, 68);
 	font-weight: 800;
-	margin-bottom: 10px;
+	padding-bottom: 30px;
+	padding-top: 90px;
+}
+
+.section-bg-alter {
+	background-color: var(--alter-bg-color);
 }
 
 .section-desc {
@@ -21,7 +31,7 @@ li {
 	color: rgb(91, 88, 88);
 }
 
-.section-margin{
-	margin-left: 40px;
-	margin-right: 40px;
+.section-margin {
+	padding-left: 40px;
+	padding-right: 40px;
 }
