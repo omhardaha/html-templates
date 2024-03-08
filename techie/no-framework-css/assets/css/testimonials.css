@@ -11,14 +11,17 @@
 
 .testimonail-quotes {
 	padding: 20px;
-	padding-bottom: 90px;
+	border-radius: 6px;
+	padding-bottom: 70px;
 	color: rgb(38, 42, 44);
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .testimonial-user {
+	margin-left: 20px;
 	position: relative;
 	top: -40px;
+
 }
 
 .testimonial-user h2 {
@@ -27,16 +30,22 @@
 	color: #2c4964;
 }
 
+.testimonial-user span {
+	font-weight: 700;
+}
+
 .testimonail-quotes .end-quote {
 	transform: rotate(180deg);
 }
 
 .testimonail-quotes p {
 	display: inline;
+
 }
 
 .testimonial-user-image {
 	width: 90px;
+	box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	height: 90px;
 	object-fit: cover;
 	border-radius: 100%;
