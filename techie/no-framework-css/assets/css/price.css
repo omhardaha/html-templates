@@ -39,7 +39,9 @@
 }
 
 .buy-now-btn-container button {
-	padding: 10px;
+	padding: 14px;
+	padding-left: 30px;
+	padding-right: 30px;
 	border: none;
 	background: linear-gradient(90deg, rgba(92, 66, 245, 1) 0%, rgba(122, 40, 217, 1) 100%);
 	color: white;
