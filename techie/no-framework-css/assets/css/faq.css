@@ -1,0 +1,34 @@
+.faq-section {
+	background: var(--theme-gradient-bg);
+	color: white !important;
+}
+
+.faq-list {
+	padding-bottom: 30px;
+	padding-left: 120px;
+	padding-right: 120px;
+}
+
+.faq-list details {
+	background-color: white;
+	color: black;
+	padding: 40px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 3px;
+}
+
+.faq-list details summary {
+	display: flex;
+	align-items: center;
+}
+
+.faq-list details summary span {
+	margin-right: 10px;
+	vertical-align: bottom;
+}
+
+.faq-list details summary:hover {
+	color: var(--theme-color);
+	cursor: pointer;
+}

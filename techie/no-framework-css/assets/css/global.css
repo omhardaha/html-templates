@@ -1,5 +1,6 @@
 :root {
 	--theme-color: #5846f9;
+	--theme-gradient-bg: linear-gradient(90deg, rgba(92, 66, 245, 1) 0%, rgba(122, 40, 217, 1) 100%);
 	--alter-bg-color: #f9f8ff;
 	--desc-text-color: #444444;
 	--user-sub-heading-text-color: #999;
@@ -13,10 +14,12 @@
 	font-family: "Poppins", sans-serif;
 }
 
-li {
+li,
+summary {
 	list-style: none;
 }
 
+/* summary {list-style: none} */
 /* section global styles   */
 .section-title {
 	text-align: center;
@@ -25,6 +28,10 @@ li {
 	font-weight: 800;
 	padding-bottom: 30px;
 	padding-top: 90px;
+}
+
+.section-title-light {
+	color: rgb(255, 255, 255);
 }
 
 .section-bg-alter {
@@ -37,6 +44,10 @@ li {
 	letter-spacing: 0.3px;
 	color: var(--desc-text-color);
 	margin-bottom: 40px;
+}
+
+.section-desc-light {
+	color: white;
 }
 
 .section-margin {
