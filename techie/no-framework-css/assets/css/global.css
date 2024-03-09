@@ -7,11 +7,20 @@
 
 	/* pricesection */
 	--sub-title-text-color: rgb(69, 68, 68);
-	--sub-title-bg-color: #f8f8f8
+	--sub-title-bg-color: #f8f8f8;
+
+	/* contact section  */
+	--form-border-color: #847f7f3c;
 }
 
 * {
 	font-family: "Poppins", sans-serif;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
 }
 
 li,
@@ -57,4 +66,8 @@ summary {
 
 .box-shadow-med {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.box-shadow-sm {
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.103), 0 3px 30px 0 rgba(0, 0, 0, 0.068);
 }
