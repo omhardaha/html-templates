@@ -1,4 +1,10 @@
 :root {
+	/* colors  */
+	--text-color-primary: #fff;
+	--text-color-primary-dark: #000000;
+	--text-color-secondary: rgba(255, 255, 255, 0.7);
+	--text-color-secondary-dark: #444444;
+
 	--theme-color: #5846f9;
 	--theme-gradient-bg: linear-gradient(90deg, rgba(92, 66, 245, 1) 0%, rgba(122, 40, 217, 1) 100%);
 	--alter-bg-color: #f9f8ff;
