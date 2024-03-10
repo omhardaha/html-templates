@@ -4,6 +4,12 @@
 	text-align: left;
 }
 
+.footer-section hr {
+	background-color: rgba(255, 255, 255, 0.322);
+	height: 2px;
+	border: none;
+}
+
 .footer-section__row {
 	display: flex;
 	grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -29,10 +35,15 @@ a {
 }
 
 .footer-section__copyrights {
-	padding-top: 20px;
+	padding: 20px;
 	display: flex;
 	justify-content: space-between;
 	padding-bottom: 20px;
+}
+
+.copyright-text p {
+	margin-top: 10px;
+	font-size: 15px;
 }
 
 .footer-social-links {
