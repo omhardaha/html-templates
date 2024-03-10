@@ -51,3 +51,21 @@ a {
 	height: 20px;
 	/* background-color: #583535; */
 }
+
+.section-links-container {
+	line-height: 30px;
+}
+
+.section-links-container h2 {
+	font-size: 1.1rem;
+	margin-bottom: 20px;
+}
+
+.section-address div {
+	margin-top: 20px;
+}
+
+.link-forward {
+	height: 15px;
+	filter: grayscale(1) invert(1);
+}
