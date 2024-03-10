@@ -27,3 +27,27 @@
 a {
 	color: white;
 }
+
+.footer-section__copyrights {
+	padding-top: 20px;
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 20px;
+}
+
+.footer-social-links {
+	/* height: 500px; */
+}
+
+.footer-social-links a {
+	padding: 10px;
+	background-color: #8f69c0;
+	border-radius: 100%;
+}
+
+.footer-social-links a img {
+	/* fill */
+	filter: grayscale(1) invert(1);
+	height: 20px;
+	/* background-color: #583535; */
+}
