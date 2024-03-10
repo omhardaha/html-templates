@@ -37,11 +37,18 @@ a {
 
 .footer-social-links {
 	/* height: 500px; */
+	gap: 10px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+
 }
 
 .footer-social-links a {
+	display: flex;
 	padding: 10px;
-	background-color: #8f69c0;
+	background-color: #8f69c05c;
 	border-radius: 100%;
 }
 
