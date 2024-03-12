@@ -50,6 +50,28 @@ summary {
 	color: rgb(69, 68, 68);
 	font-weight: 800;
 	padding-bottom: 30px;
+	display: block;
+}
+
+.section-title::after {
+	/* display: block;
+	content: '_';
+	width: 40px;
+	text-align: center;
+	border-bottom: 12px solid #5846f9; */
+
+	/* content: '';
+	border-bottom: 3px solid #000;
+	width: 10px;
+	display: block; */
+
+	content: '';
+	border-bottom: 4px solid var(--theme-color);
+	width: 40px;
+	display: block;
+	position: relative;
+	top: 20px;
+	left: calc(50% - 40px);
 }
 
 .section-title-light {
