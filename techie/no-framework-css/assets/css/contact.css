@@ -11,7 +11,6 @@
 	text-align: center;
 	color: var(--desc-text-color);
 	padding: 20px;
-	/* margin: 20px; */
 }
 
 .contact-card img {
@@ -62,18 +61,16 @@
 
 .contact-form button {
 	display: block;
-	/* width: 100%; */
-	margin: 10px;
 	background-color: var(--theme-color);
+	margin: 10px;
 	padding: 15px;
 	padding-left: 18px;
 	padding-right: 18px;
-	border: none;
 	color: white;
+	border: none;
 	border-radius: 3px;
 }
 
 .contact-row-1 {
 	display: flex;
-
 }

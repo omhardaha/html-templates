@@ -17,6 +17,12 @@
 
 	/* contact section  */
 	--form-border-color: #847f7f3c;
+
+	/* padding  */
+	--section-padding-left: 40px;
+	--section-padding-right: 40px;
+	--section-padding-top: 80px;
+	--section-padding-bottom: 80px;
 }
 
 * {
@@ -44,7 +50,6 @@ summary {
 	color: rgb(69, 68, 68);
 	font-weight: 800;
 	padding-bottom: 30px;
-	padding-top: 90px;
 }
 
 .section-title-light {
@@ -68,8 +73,10 @@ summary {
 }
 
 .section-margin {
-	padding-left: 40px;
-	padding-right: 40px;
+	padding-left: var(--section-padding-left);
+	padding-right: var(--section-padding-right);
+	padding-top: var(--section-padding-top);
+	padding-bottom: var(--section-padding-bottom);
 }
 
 .box-shadow-med {

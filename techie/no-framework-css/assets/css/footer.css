@@ -15,8 +15,9 @@
 	grid-template-columns: repeat(4, minmax(0, 1fr));
 	width: 100%;
 	gap: 20px;
-	padding-top: 45px;
+	/* padding-top: 45px; */
 	padding-bottom: 45px;
+
 }
 
 .footer-section__row .section-links-container {
@@ -46,7 +47,7 @@ a {
 	padding: 20px;
 	display: flex;
 	justify-content: space-between;
-	padding-bottom: 20px;
+	/* padding-bottom: 20px; */
 }
 
 .copyright-text p {

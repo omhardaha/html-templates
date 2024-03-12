@@ -22,7 +22,8 @@
 }
 
 .nav-buttons ul li a:hover {
-	border-bottom: 1px white solid;
+	border-bottom: 2px white solid;
+	color: white;
 }
 
 .get-started a {
