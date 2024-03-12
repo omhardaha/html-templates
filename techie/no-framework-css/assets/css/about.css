@@ -1,42 +1,49 @@
 .about-section {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .about-section__left h2 {
-    font-size: 2rem;
-    color: rgb(54, 52, 52);
+	font-size: 2rem;
+	color: rgb(54, 52, 52);
 }
 
 .about-section__left button {
-    background-color: #4158d0;
-    background-image: linear-gradient(43deg, #5845f8 0%, #663aec 46%, #7a27d8 100%);
-    border: none;
-    border-radius: 5px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 13px;
-    padding-bottom: 13px;
-    margin-top: 10px;
-    color: white;
-    letter-spacing: 2px;
-    font-weight: 600;
+	background-color: #4158d0;
+	background-image: linear-gradient(43deg, #5845f8 0%, #663aec 46%, #7a27d8 100%);
+	border: none;
+	border-radius: 5px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 13px;
+	padding-bottom: 13px;
+	margin-top: 10px;
+	color: white;
+	letter-spacing: 2px;
+	font-weight: 600;
 }
 
 .about-section__left .list-items {
-    margin-top: 17px;
-    margin-bottom: 17px;
+	margin-top: 17px;
+	margin-bottom: 17px;
 }
 
 .about-section__left .list-items p {
-    display: inline;
+	display: inline;
+	font-size: 17px;
+	color: var(--desc-text-color);
 }
 
 .about-section__left .list-items span img {
-    height: 30px;
+	height: 30px;
+}
+
+.about-section__left .about-sub-heading {
+	margin-top: 20px;
+	color: var(--desc-text-color);
 }
 
 .about-section__image img {
-    object-fit: cover;
-    width: 100%;
+	object-fit: cover;
+	width: 100%;
 }
