@@ -8,13 +8,24 @@
 	grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.features-item {
+	display: flex;
+	justify-content: center;
+	/* align-items: center; */
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
 .features-item img {
 	height: 40px;
 	fill: green;
 }
 
-.features-item {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+.features-item p {
+	color: var(--text-color-secondary-dark);
+	margin-top: 14px;
+}
+
+.features-item__left {
+	margin-right: 20px;
 }
