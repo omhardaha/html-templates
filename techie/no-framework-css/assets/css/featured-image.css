@@ -42,4 +42,15 @@
 	width: 80%;
 	object-fit: cover;
 	text-align: center;
+	animation: up-down-animation 1s infinite alternate;
+}
+
+@keyframes up-down-animation {
+	0% {
+		transform: translateY(0);
+	}
+
+	100% {
+		transform: translateY(-15px);
+	}
 }
