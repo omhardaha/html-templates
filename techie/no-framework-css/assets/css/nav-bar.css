@@ -30,19 +30,8 @@
 	color: white;
 }
 
-.nav-buttons ul li a.active {
-	color: rgb(212, 82, 82);
-}
-
-.nav-buttons ul li a:hover,
-.nav-buttons .active,
-.nav-buttons ul li a:focus {
-	color: #cc3939;
-}
-
 .get-started a {
 	background-color: transparent;
-	/* background-color: rgba(255, 235, 205, 0); */
 	border-radius: 4px;
 	border: 1px solid var(--text-color-secondary);
 	padding: 8px;
@@ -60,7 +49,6 @@
 
 .nav-bg {
 	background-color: rgba(0, 0, 255, 0.698);
-	/* padding: 40px; */
 	transition: .7s ease-in-out;
 	padding-top: 20px;
 	padding-bottom: 20px;
