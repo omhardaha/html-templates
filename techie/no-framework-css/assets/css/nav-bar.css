@@ -28,10 +28,14 @@
 	color: white;
 }
 
-.nav-buttons ul li a:active {
-	transition: ease-in-out .3s;
-	border-bottom: 2px white solid;
+.nav-buttons ul li a.active {
 	color: rgb(212, 82, 82);
+}
+
+.nav-buttons ul li a:hover,
+.nav-buttons .active,
+.nav-buttons ul li a:focus {
+	color: #cc3939;
 }
 
 .get-started a {
