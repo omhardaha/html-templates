@@ -7,6 +7,7 @@
 	padding: 40px;
 	justify-content: space-between;
 	color: #ffffff;
+	position: fixed;
 }
 
 .nav-buttons ul {
@@ -22,8 +23,15 @@
 }
 
 .nav-buttons ul li a:hover {
+	transition: ease-in-out .3s;
 	border-bottom: 2px white solid;
 	color: white;
+}
+
+.nav-buttons ul li a:active {
+	transition: ease-in-out .3s;
+	border-bottom: 2px white solid;
+	color: rgb(212, 82, 82);
 }
 
 .get-started a {
