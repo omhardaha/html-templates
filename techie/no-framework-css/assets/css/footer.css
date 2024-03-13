@@ -71,13 +71,17 @@ a {
 	background-color: #8f69c05c;
 	border-radius: 100%;
 }
-
+.footer-social-links a:hover {
+	background-color: #8f69c01a;
+}
 
 .footer-social-links a img {
-	/* fill */
 	filter: grayscale(1) invert(1);
 	height: 20px;
-	/* background-color: #583535; */
+}
+.footer-social-links a img:hover {
+	filter: grayscale(0.5) invert(0.5);
+	height: 20px;
 }
 
 .section-links-container {
@@ -123,5 +127,5 @@ a {
 }
 
 .section-newsletter .subscribe button:hover {
-	background: rgba(122, 40, 217, 1);
+	background: rgba(123, 40, 217, 0.489);
 }
