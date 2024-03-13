@@ -18,6 +18,7 @@
 	margin: 0;
 	margin-top: 10px;
 	margin-bottom: 10px;
+	color: rgba(185, 185, 185, 0.556);
 }
 
 .pricing-section__price-options .price-container p {
@@ -47,10 +48,14 @@
 	padding-left: 30px;
 	padding-right: 30px;
 	border: none;
-	background: linear-gradient(90deg, rgba(92, 66, 245, 1) 0%, rgba(122, 40, 217, 1) 100%);
+	cursor: pointer;
+	background: linear-gradient(45deg, rgba(92, 66, 245, 1) 0%, rgba(122, 40, 217, 1) 100%);
 	color: white;
 	font-weight: 700;
 	border-radius: var(--button-br);
+}
+.buy-now-btn-container button:hover {
+	background: linear-gradient(45deg, rgba(122, 40, 217, 1) 0%, rgba(92, 66, 245, 1) 100%);
 }
 
 .price-business h2 {
