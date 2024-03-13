@@ -12,6 +12,7 @@
 	background-color: white;
 	flex-direction: column;
 	justify-content: space-between;
+	/* padding-bottom: 20px; */
 }
 
 .pricing-section__price-options .price-container s {

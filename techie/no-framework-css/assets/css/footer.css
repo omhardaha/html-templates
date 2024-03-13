@@ -97,3 +97,31 @@ a {
 	height: 15px;
 	filter: grayscale(1) invert(1);
 }
+
+.section-newsletter p {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.section-newsletter .subscribe {
+	display: flex;
+}
+
+.section-newsletter .subscribe input {
+	padding: 10px;
+}
+
+.section-newsletter .subscribe button {
+	padding: 14px;
+	padding-left: 30px;
+	padding-right: 30px;
+	border: none;
+	cursor: pointer;
+	background: rgba(122, 40, 217, 1);
+	color: white;
+	font-weight: 700;
+	border-radius: var(--button-br);
+}
+
+.section-newsletter .subscribe button:hover {
+	background: rgba(122, 40, 217, 1);
+}
