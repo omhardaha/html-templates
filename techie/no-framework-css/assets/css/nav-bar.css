@@ -22,11 +22,12 @@
 	font-size: large;
 	font-weight: 600;
 	color: var(--text-color-secondary);
+	padding-bottom: 7px;
 }
 
 .nav-buttons ul li a:hover {
 	transition: ease-in-out .3s;
-	border-bottom: 2px white solid;
+	border-bottom: 4px white solid;
 	color: white;
 }
 
@@ -48,7 +49,7 @@
 }
 
 .nav-bg {
-	background-color: rgba(0, 0, 255, 0.698);
+	background-color: rgba(14, 14, 167, 0.78);
 	transition: .7s ease-in-out;
 	padding-top: 20px;
 	padding-bottom: 20px;
