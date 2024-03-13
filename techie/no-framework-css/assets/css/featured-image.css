@@ -1,6 +1,6 @@
 .featured-image-section {
 	padding: 170px;
-	padding-top: 70px;
+	padding-top: 170px;
 	margin: auto;
 	display: grid;
 	grid-template-columns: repeat(2, minmax(0, 1fr));
