@@ -1,4 +1,4 @@
-.featured-image-section {
+.hero {
 	padding: 170px;
 	padding-top: 170px;
 	margin: auto;
@@ -13,13 +13,13 @@
 	background-size: cover;
 }
 
-.featured-image-section__heading h1 {
+.hero__heading h1 {
 	font-size: 4rem;
 	margin: 0;
 	font-weight: 700;
 }
 
-.featured-image-section__heading span {
+.hero__heading span {
 	margin-top: 20px;
 	margin-bottom: 24px;
 	font-size: 1.4rem;
@@ -29,7 +29,7 @@
 	font-weight: 700;
 }
 
-.featured-image-section__heading button {
+.hero__heading button {
 	font-size: 1.2rem;
 	padding: 10px;
 	padding-right: 20px;
@@ -40,7 +40,7 @@
 	border-radius: 4px;
 }
 
-.featured-image-section__image img {
+.hero__image img {
 	width: 80%;
 	object-fit: cover;
 	text-align: center;
