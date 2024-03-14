@@ -6,11 +6,11 @@
 109C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\postcss-selector-parser\package.json133549063821567011 0
 99C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\@parcel\core\lib\Parcel.js133549057056866662 0
 108C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\yaml\browser\dist\nodes\identity.js133549063823674430 0
-78C:\code-practices\repos\html-templates\techie\with-tailwind\tailwind.config.js133549063942707909 0
+78C:\code-practices\repos\html-templates\techie\with-tailwind\tailwind.config.js133549097260512138 0
 118C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\yaml\dist\compose\util-flow-indent-check.d.ts133549063829143010 0
 139C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\@parcel\optimizer-htmlnano\node_modules\csso\lib\replace\Number.js133549057048897884 0
 86C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\wrap-ansi-cjs133549063813371091 1
-75C:\code-practices\repos\html-templates\techie\with-tailwind\dist\index.html133549072541343501 0
+75C:\code-practices\repos\html-templates\techie\with-tailwind\dist\index.html133549098940860861 0
 144C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\css-select\node_modules\entities\lib\esm\generated\encode-html.d.ts.map133549057048585373 0
 87C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\normalize-path133549063813525038 1
 79C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\@pkgjs133549063805880740 1
@@ -36,7 +36,7 @@
 97C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\yaml\dist\test-events.js133549063826390145 0
 93C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\which\bin\node-which133549063812288667 0
 119C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\caniuse-lite\data\features\user-select-none.js133549057074336849 0
-72C:\code-practices\repos\html-templates\techie\with-tailwind\package.json133549063832458984 0
+72C:\code-practices\repos\html-templates\techie\with-tailwind\package.json133549094243985254 0
 70C:\code-practices\repos\html-templates\techie\with-tailwind\.postcssrc133528938280106417 0
 96C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\postcss-import\index.js133549063815115580 0
 104C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\yaml\dist\schema\core\bool.d.ts133549063827209422 0
@@ -48,15 +48,15 @@
 92C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\fast-glob\out\types133549063822367567 1
 119C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\@babel\highlight\node_modules\has-flag\license133549057031241637 0
 104C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\@parcel\utils\test\input\config133549057057179112 1
-64C:\code-practices\repos\html-templates\techie\with-tailwind\dist133549072541353568 1
+64C:\code-practices\repos\html-templates\techie\with-tailwind\dist133549098940940858 1
 100C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\@parcel\plugin\package.json133549057033116607 0
 111C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\supports-preserve-symlinks-flag\.nycrc133549063812358721 0
 113C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\utility-types\dist\aliases-and-guards.js133549057030460391 0
 111C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\css-tree\lib\syntax\node\WhiteSpace.js133549057065147907 0
 110C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\@swc\helpers\esm\_write_only_error.js133549057062022931 0
-72C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules133549063832328974 1
+72C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules133549093963564438 1
 109C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\css-tree\lib\syntax\config\parser.js133549057064054136 0
-77C:\code-practices\repos\html-templates\techie\with-tailwind\package-lock.json133549063833926634 0
+77C:\code-practices\repos\html-templates\techie\with-tailwind\package-lock.json133549093964631375 0
 99C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\yaml\dist\schema\tags.d.ts133549063829000720 0
 95C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\js-yaml\bin\js-yaml.js133549057041085395 0
 108C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\path-scurry\dist\mjs\index.d.ts.map133549063817536199 0
@@ -69,7 +69,7 @@
 103C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\yaml\browser\dist\parse\cst.js133549063822602099 0
 85C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\browserslist133549057039366620 1
 94C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\detect-libc\README.md133549057031241637 0
-74C:\code-practices\repos\html-templates\techie\with-tailwind\src\index.html133549072468687450 0
+74C:\code-practices\repos\html-templates\techie\with-tailwind\src\index.html133549098939035162 0
 98C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\minimatch\dist\cjs\ast.js133549063815590119 0
 98C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\ts-interface-checker\dist133549063817293735 1
 156C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\node\DeclarationList.js133549057049366619 0
@@ -81,7 +81,7 @@
 93C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\@swc\helpers\_\index133549057066709281 1
 86C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\dotenv-expand133549057034366675 1
 77C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\.bin133549063832196634 1
-91C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\.package-lock.json133549063835144477 0
+91C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\.package-lock.json133549093965100101 0
 89C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\readdirp\LICENSE133549063810971299 0
 98C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\yaml\dist\schema\yaml-1.1133549063829043049 1
 102C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\sucrase\dist\parser\traverser133549063826684926 1
@@ -126,7 +126,7 @@
 127C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\csso\node_modules\css-tree\cjs\syntax\function\var.cjs133549057058116678 0
 91C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\posthtml\readme.md133549057034054136 0
 95C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\update-browserslist-db133549057036710387 1
-80C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\@parcel133549063832358990 1
+80C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\@parcel133549093963721001 1
 125C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\postcss-load-config\node_modules\lilconfig\readme.md133549063814760688 0
 100C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\weak-lru-cache\package.json133549057036397866 0
 108C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\@nodelib\fs.walk\out\types\index.js133549063817009122 0
@@ -143,7 +143,7 @@
 134C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\@parcel\optimizer-svgo\node_modules\css-select\lib\types.d.ts133549057048741630 0
 87C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\dom-serializer133549057040147871 1
 79C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\stable133549057033272866 1
-78C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\@lmdb133549063832368962 1
+78C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\@lmdb133549093963721001 1
 80C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\js-yaml133549057048272857 1
 79C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\cssesc133549063815904664 1
 113C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\posthtml-parser\dist\location-tracker.js133549057032804194 0
@@ -172,7 +172,7 @@
 106C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\yaml\dist\nodes\addPairToJSMap.js133549063815065587 0
 121C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\@swc\helpers\cjs\_object_destructuring_empty.cjs133549057052179122 0
 113C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\tailwindcss\src\public\resolve-config.js133549063829690050 0
-90C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\@msgpackr-extract133549063832368962 1
+90C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\@msgpackr-extract133549093963721001 1
 97C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\glob\dist\esm\pattern.js133549063818357902 0
 110C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\caniuse-lite\data\features\ch-unit.js133549057055929128 0
 81C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\@nodelib133549063805870704 1
@@ -182,7 +182,7 @@
 94C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\@parcel\fs\index.d.ts133549057043741619 0
 98C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\yaml\browser\dist\compose133549063826684926 1
 90C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\hasown\index.d.ts133549063817769210 0
-77C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\@swc133549063832339028 1
+77C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\@swc133549093963564438 1
 109C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\tailwindcss\src\util\escapeCommas.js133549063825236803 0
 100C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\yaml\dist\doc\Document.d.ts133549063827706346 0
 86C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\svgo\bin\svgo133549057031397939 0
@@ -768,7 +768,7 @@
 121C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\@jridgewell\resolve-uri\dist\resolve-uri.mjs.map133549063814710651 0
 101C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\posthtml-parser\package.json133549057033897884 0
 85C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\resolve-from133549057032022865 1
-90C:\code-practices\repos\html-templates\techie\with-tailwind\dist\with-tailwind.59712999.js133549072322809889 0
+90C:\code-practices\repos\html-templates\techie\with-tailwind\dist\with-tailwind.59712999.js133549098940860861 0
 80C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\reusify133549063816464468 1
 93C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\postcss\lib\input.js133549063817191466 0
 111C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\yaml\dist\compose\util-map-includes.js133549063826714936 0
@@ -7895,7 +7895,7 @@
 98C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\@parcel\core\src\requests133549057062022931 1
 107C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\@parcel\core\src\RequestTracker.js133549057059210390 0
 107C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\@parcel\core\src\resolveOptions.js133549057059366687 0
-94C:\code-practices\repos\html-templates\techie\with-tailwind\dist\with-tailwind.59712999.js.map133549072322887901 0
+94C:\code-practices\repos\html-templates\techie\with-tailwind\dist\with-tailwind.59712999.js.map133549098940940858 0
 103C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\@parcel\core\src\serializer.js133549057059522918 0
 115C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\@parcel\core\src\serializerCore.browser.js133549057059679148 0
 107C:\code-practices\repos\html-templates\techie\with-tailwind\node_modules\@parcel\core\src\serializerCore.js133549057059835414 0
