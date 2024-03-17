@@ -45,7 +45,7 @@
 93C:\code-practices\repos\html-templates\techie\no-framework-scss\src\assets\scss\_contact.scss133551712393836021 0
 116C:\code-practices\repos\html-templates\techie\no-framework-scss\node_modules\css-tree\lib\definition-syntax\parse.js133550941819522214 0
 140C:\code-practices\repos\html-templates\techie\no-framework-scss\node_modules\@parcel\core\test\fixtures\invalid-source-not-file\package.json133550941818848720 0
-76C:\code-practices\repos\html-templates\techie\no-framework-scss\package.json133551802633654573 0
+76C:\code-practices\repos\html-templates\techie\no-framework-scss\package.json133551801757087578 0
 108C:\code-practices\repos\html-templates\techie\no-framework-scss\node_modules\source-map-js\lib\quick-sort.js133550941791512968 0
 95C:\code-practices\repos\html-templates\techie\no-framework-scss\node_modules\domutils\readme.md133550941799161611 0
 68C:\code-practices\repos\html-templates\techie\no-framework-scss\dist133551544277925264 1
@@ -72,7 +72,7 @@
 86C:\code-practices\repos\html-templates\techie\no-framework-scss\node_modules\lmdb\util133550941816216308 1
 99C:\code-practices\repos\html-templates\techie\no-framework-scss\node_modules\picomatch\lib\utils.js133550941791938803 0
 112C:\code-practices\repos\html-templates\techie\no-framework-scss\node_modules\css-select\lib\esm\pseudo-selectors133550941811905826 1
-78C:\code-practices\repos\html-templates\techie\no-framework-scss\src\index.html133551803219499397 0
+78C:\code-practices\repos\html-templates\techie\no-framework-scss\src\index.html133551800210904304 0
 132C:\code-practices\repos\html-templates\techie\no-framework-scss\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\sample-bdb.txt133550941817100579 0
 119C:\code-practices\repos\html-templates\techie\no-framework-scss\node_modules\caniuse-lite\data\features\wasm-threads.js133550941830951264 0
 81C:\code-practices\repos\html-templates\techie\no-framework-scss\src\assets\images133550946310520730 1
