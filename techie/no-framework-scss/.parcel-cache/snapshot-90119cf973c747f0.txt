@@ -1,7 +1,6 @@
 5917
 82C:\code-practices\repos\html-templates\techie\no-framework-scss\node_modules\chalk133550941791412986 1
 126C:\code-practices\repos\html-templates\techie\no-framework-scss\node_modules\caniuse-lite\data\features\css-overflow-anchor.js133550941818858654 0
-79C:\code-practices\repos\html-templates\techie\no-framework-scss\dist\index.html133551539687915802 0
 115C:\code-practices\repos\html-templates\techie\no-framework-scss\node_modules\type-fest\source\conditional-pick.d.ts133550941794236404 0
 127C:\code-practices\repos\html-templates\techie\no-framework-scss\node_modules\@parcel\optimizer-svgo\node_modules\css-select\lib133550941804920737 1
 70C:\code-practices\repos\html-templates\techie\no-framework-scss\assets133550946753182552 1
@@ -54,7 +53,7 @@
 87C:\code-practices\repos\html-templates\techie\no-framework-scss\node_modules\is-extglob133550941787101835 1
 108C:\code-practices\repos\html-templates\techie\no-framework-scss\node_modules\source-map-js\lib\quick-sort.js133550941791512968 0
 95C:\code-practices\repos\html-templates\techie\no-framework-scss\node_modules\domutils\readme.md133550941799161611 0
-68C:\code-practices\repos\html-templates\techie\no-framework-scss\dist133551539687925827 1
+68C:\code-practices\repos\html-templates\techie\no-framework-scss\dist133551544243041701 1
 126C:\code-practices\repos\html-templates\techie\no-framework-scss\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mtest6.c133550941811334803 0
 103C:\code-practices\repos\html-templates\techie\no-framework-scss\node_modules\nth-check\lib\parse.js.map133550941799934240 0
 90C:\code-practices\repos\html-templates\techie\no-framework-scss\node_modules\semver\ranges133550941806429884 1
@@ -82,7 +81,7 @@
 86C:\code-practices\repos\html-templates\techie\no-framework-scss\node_modules\lmdb\util133550941816216308 1
 99C:\code-practices\repos\html-templates\techie\no-framework-scss\node_modules\picomatch\lib\utils.js133550941791938803 0
 112C:\code-practices\repos\html-templates\techie\no-framework-scss\node_modules\css-select\lib\esm\pseudo-selectors133550941811905826 1
-78C:\code-practices\repos\html-templates\techie\no-framework-scss\src\index.html133551533823205845 0
+78C:\code-practices\repos\html-templates\techie\no-framework-scss\src\index.html133551544240119425 0
 81C:\code-practices\repos\html-templates\techie\no-framework-scss\node_modules\.bin133550941835265469 1
 113C:\code-practices\repos\html-templates\techie\no-framework-scss\node_modules\svgo\plugins\removeElementsByAttr.js133550941810026826 0
 121C:\code-practices\repos\html-templates\techie\no-framework-scss\node_modules\caniuse-lite\data\features\object-entries.js133550941826953898 0
@@ -5916,3 +5915,4 @@
 102C:\code-practices\repos\html-templates\techie\no-framework-scss\assets\images\features-section\box.svg133542279280320246 0
 101C:\code-practices\repos\html-templates\techie\no-framework-scss\assets\images\faq\question-circle.svg133544370246097609 0
 94C:\code-practices\repos\html-templates\techie\no-framework-scss\assets\images\contact\call.svg133547364351045572 0
+79C:\code-practices\repos\html-templates\techie\no-framework-scss\dist\index.html133551544243021666 0
