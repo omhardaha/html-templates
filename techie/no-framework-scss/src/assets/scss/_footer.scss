@@ -1,0 +1,90 @@
+@mixin links {
+	text-decoration: none;
+	display: block;
+	color: rgba(255, 255, 255, 0.716);
+	font-size: 0.9rem;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.footer--container {
+	@include font-poppins;
+
+	background-color: $theme-color-2;
+	color: white;
+	.footer--cols {
+		display: grid;
+		grid-template-columns: repeat(7, minmax(0, 1fr));
+		justify-content: center;
+		gap: 25px;
+		margin-bottom: 60px;
+
+		.footer--techie-col {
+			grid-column: span 2 / span 2;
+			.footer--title {
+				font-size: 1.8rem;
+				font-weight: 500;
+			}
+			.footer--address {
+				margin-top: 20px;
+				margin-bottom: 20px;
+				font-weight: 300;
+				font-size: 0.9rem;
+			}
+			.footer--contact {
+				font-size: 1rem;
+				font-weight: 200;
+			}
+		}
+		.footer--useful-links-col {
+			.footer--links {
+				a {
+					@include links;
+				}
+			}
+		}
+		.footer--our-services-col {
+			a {
+				@include links;
+			}
+		}
+		.footer--our-newsletter-col {
+			grid-column: span 3 / span 3;
+		}
+	}
+
+	hr {
+		height: 1px;
+		background-color: rgba(255, 255, 255, 0.418);
+		width: 100%;
+		border: none;
+	}
+	.footer--bottom-section {
+		padding-top: 30px;
+		padding-bottom: 30px;
+		display: flex;
+		justify-content: space-between;
+		.footer--copyright-text {
+			font-weight: 400;
+			font-size: 0.8rem;
+		}
+		.footer--social-links {
+			display: flex;
+			gap: 5px;
+			a {
+				display: flex;
+				flex-direction: column;
+				padding: 10px;
+				border-radius: 100%;
+				background-color: rgba(197, 197, 197, 0.137);
+				img {
+					height: 20px;
+				}
+			}
+		}
+	}
+}
+
+.footer--title {
+	font-size: 1.1rem;
+}
