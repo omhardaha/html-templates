@@ -1,0 +1,100 @@
+@mixin virtical-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.pricing--cards {
+	@include font-poppins;
+	display: grid;
+	grid-template-columns: repeat(4, minmax(0, 1fr));
+	justify-content: center;
+	gap: 25px;
+	text-align: center;
+
+	.pricing--card {
+		height: 420px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		justify-items: center;
+		box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+		background-color: #fff;
+
+		.pricing--type {
+			background-color: #f8f8f8;
+			height: 60px;
+			@include virtical-center;
+			.pricing--type-text {
+				font-weight: 700;
+				font-size: 1rem;
+				color: $section-title-color;
+			}
+		}
+		.pricing--price-monthly {
+			// @include virtical-center;
+			display: flex;
+			justify-content: center;
+			color: $theme-color-2;
+
+			.pricing--dollar {
+				font-size: 1rem;
+				font-weight: 700;
+			}
+
+			.pricing--text {
+				font-size: 2rem;
+				font-weight: 700;
+			}
+
+			.pricing--text-month {
+				margin-top: 20px;
+				font-size: 1rem;
+				color: #cbc5c5a4;
+			}
+		}
+
+		.pricing--features-available {
+			@include virtical-center;
+			color: black;
+			display: block;
+			font-size: 0.8rem;
+		}
+
+		.pricing--features-unavailable {
+			color: rgba(143, 143, 143, 0.686);
+			display: block;
+		}
+
+		.pricing--btn-container {
+			background-color: #f8f8f8;
+			height: 80px;
+			@include virtical-center;
+
+			.pricing--button {
+				background: linear-gradient(
+					45deg,
+					rgba(92, 66, 245, 1) 0%,
+					rgba(122, 40, 217, 1) 100%
+				);
+
+				padding: 10px;
+				padding-left: 30px;
+				padding-right: 30px;
+				color: white;
+				font-weight: 600;
+				font-size: 1rem;
+				border-radius: 5px;
+				border: none;
+
+				&:hover {
+					background: linear-gradient(
+						45deg,
+						rgba(122, 40, 217, 1) 100%,
+						rgba(92, 66, 245, 1) 0%
+					);
+				}
+			}
+		}
+	}
+}
