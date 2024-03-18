@@ -2,23 +2,16 @@
 	@include font-poppins;
 	display: grid;
 	gap: 25px;
-	grid-template-columns: repeat(2, minmax(0, 1fr));
+	grid-template-columns: repeat(4, minmax(0, 1fr));
 
 	.contact--left-col {
 		display: grid;
 		gap: 25px;
 	}
-	.contact--right-col {
+	.contact--contacts-box {
 		display: grid;
+		grid-template-columns: repeat(4 minmax(0, 1fr));
 		gap: 25px;
-		.contact--contacts-box {
-			display: grid;
-			grid-template-columns: repeat(2, minmax(0, 1fr));
-			gap: 25px;
-			.contact--card {
-				height: 100%;
-			}
-		}
 	}
 }
 
@@ -40,4 +33,14 @@
 
 	.contact--sub-title {
 	}
+}
+
+.contact--address-card {
+	grid-column: span 2 / span 2;
+}
+.contact--map-card {
+	grid-column: span 2 / span 2;
+}
+.contact--form-card {
+	grid-column: span 2 / span 2;
 }
