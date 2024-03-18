@@ -5,6 +5,7 @@
 	font-size: 0.9rem;
 	margin-top: 10px;
 	margin-bottom: 10px;
+	padding-bottom: 3px;
 }
 
 .footer--container {
@@ -40,16 +41,55 @@
 			.footer--links {
 				a {
 					@include links;
+					&:hover {
+						color: white;
+						text-decoration: underline;
+					}
 				}
 			}
 		}
 		.footer--our-services-col {
 			a {
 				@include links;
+				&:hover {
+					color: white;
+					text-decoration: underline;
+				}
 			}
 		}
 		.footer--our-newsletter-col {
+			padding-left: 100px;
 			grid-column: span 3 / span 3;
+
+			p {
+				margin-top: 20px;
+				margin-bottom: 20px;
+				font-weight: 300;
+				font-size: 0.9 rem;
+			}
+
+			.footer--input {
+				display: flex;
+				width: 100%;
+
+				input {
+					border-radius: 4px;
+					border-top-right-radius: 0;
+					border-bottom-right-radius: 0;
+					padding: 10px;
+					border: none;
+					width: 100%;
+				}
+				button {
+					border-radius: 4px;
+					border: none;
+					background-color: $theme-color-1;
+					color: white;
+					padding: 10px;
+					padding-left: 15px;
+					padding-right: 15px;
+				}
+			}
 		}
 	}
 
@@ -76,9 +116,15 @@
 				flex-direction: column;
 				padding: 10px;
 				border-radius: 100%;
-				background-color: rgba(197, 197, 197, 0.137);
+				background-color: rgba(255, 255, 255, 0.101);
 				img {
-					height: 20px;
+					height: 18px;
+					filter: invert(1);
+				}
+
+				&:hover {
+					background-color: rgba(255, 238, 238, 0.285);
+					transition: 0.1s ease-in;
 				}
 			}
 		}
