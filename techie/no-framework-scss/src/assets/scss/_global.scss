@@ -1,8 +1,8 @@
 html {
 	scroll-behavior: smooth;
 }
-$theme-color-1 : #762bdc;
-$theme-color-2 : #613ef1;
+$theme-color-1: #762bdc;
+$theme-color-2: #613ef1;
 
 $section-padding: 50px;
 $section-title-color: #444444;
@@ -38,10 +38,16 @@ img {
 		margin-bottom: 10px;
 		color: $section-title-color;
 	}
+	.section--title-light {
+		color: white;
+	}
 	.section--desc {
 		font-size: 1rem;
 		color: $section-title-color;
 		margin-top: 30px;
 		margin-bottom: 30px;
+	}
+	.section--desc-light {
+		color: white;
 	}
 }
