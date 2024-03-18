@@ -1,0 +1,25 @@
+.stats--container {
+	display: grid;
+	grid-template-columns: repeat(4, minmax(0, 1fr));
+	justify-content: center;
+	background-color: $theme-color-2;
+	align-items: center;
+	justify-items: center;
+	text-align: center;
+	padding-top: 80px;
+	padding-bottom: 80px;
+
+	@include font-poppins;
+
+	.stats--item {
+		color: white;
+		.stats-number {
+			// font-weight: 800;
+			font-size: 3rem;
+		}
+		.stats--type {
+			font-size: 1rem;
+			color: rgba(255, 255, 255, 0.741);
+		}
+	}
+}
