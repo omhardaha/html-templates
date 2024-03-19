@@ -1,9 +1,14 @@
 .header {
 	width: 100%;
-	height: 200px;
+	height: 100px;
 	position: fixed;
 	color: #fff;
 	background-color: #0946a977;
+	padding-left: $section-padding;
+	padding-right: $section-padding;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	.header--container {
 		display: flex;
 		justify-content: space-between;
@@ -27,7 +32,7 @@
 					gap: 30px;
 					.header--nav-item {
 						.header--link {
-							color: #ffffffcb; // assuming this is not an RGBA
+							color: #ffffffcb;
 							text-decoration: none;
 							font-weight: 600;
 							&:hover {
@@ -46,13 +51,12 @@
 				padding-bottom: 6px;
 				font-weight: 500;
 				background: transparent;
-				border: 2px solid #ffffff7a; /* Updated border color */
+				border: 2px solid #ffffff7a;
 				border-radius: 4px;
 				color: #fff;
 				&:hover {
-					transition: 1s ease-in-out;
+					transition: 0.5s ease-in-out;
 					border: 2px solid #fff;
-					color: $theme-color-1; /* Assuming $theme-color-1 is a variable */
 					cursor: pointer;
 				}
 			}
