@@ -1,0 +1,40 @@
+.hero--container {
+	@include font-poppins;
+	height: 100vh;
+	padding-top: 34vh;
+	color: white;
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	background-color: $theme-color-1;
+	padding-left: 190px;
+	padding-right: 190px;
+
+	.hero--left {
+		.hero--heading {
+			font-size: 3rem;
+			font-weight: 700;
+		}
+		.hero--sub-heading {
+			margin-top: 10px;
+			margin-bottom: 10px;
+			color: rgba(255, 255, 255, 0.252);
+		}
+		.hero--button {
+			padding-left: 30px;
+			padding-right: 30px;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			font-weight: 600;
+			background: transparent;
+			border: 1px solid white;
+			border-radius: 4px;
+			color: white;
+		}
+	}
+
+	.hero--right {
+		.hero--image {
+			height: 100%;
+		}
+	}
+}
