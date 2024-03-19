@@ -17,7 +17,7 @@
 		flex-direction: column;
 		justify-content: space-between;
 		justify-items: center;
-		box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+		box-shadow: #64646f33 0px 7px 29px 0px;
 		background-color: #fff;
 
 		.pricing--type {
@@ -31,7 +31,6 @@
 			}
 		}
 		.pricing--price-monthly {
-			// @include virtical-center;
 			display: flex;
 			justify-content: center;
 			color: $theme-color-2;
@@ -55,13 +54,13 @@
 
 		.pricing--features-available {
 			@include virtical-center;
-			color: black;
+			color: #000;
 			display: block;
 			font-size: 0.8rem;
 		}
 
 		.pricing--features-unavailable {
-			color: rgba(143, 143, 143, 0.686);
+			color: #8f8f8f;
 			display: block;
 		}
 
@@ -71,27 +70,19 @@
 			@include virtical-center;
 
 			.pricing--button {
-				background: linear-gradient(
-					45deg,
-					rgba(92, 66, 245, 1) 0%,
-					rgba(122, 40, 217, 1) 100%
-				);
+				background: linear-gradient(45deg, #5c42f5 0%, #7a28d9 100%);
 
 				padding: 10px;
 				padding-left: 30px;
 				padding-right: 30px;
-				color: white;
+				color: #fff;
 				font-weight: 600;
 				font-size: 1rem;
 				border-radius: 5px;
 				border: none;
 
 				&:hover {
-					background: linear-gradient(
-						45deg,
-						rgba(122, 40, 217, 1) 100%,
-						rgba(92, 66, 245, 1) 0%
-					);
+					background: linear-gradient(45deg, #7a28d9 100%, #5c42f5 0%);
 				}
 			}
 		}
