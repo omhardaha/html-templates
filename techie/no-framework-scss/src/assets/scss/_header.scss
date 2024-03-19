@@ -1,9 +1,10 @@
+$scroll-transition: all 0.4s ease-in-out;
 .header {
+	transition: $scroll-transition;
 	width: 100%;
 	height: 100px;
 	position: fixed;
 	color: #fff;
-	background-color: #0946a977;
 	padding-left: $section-padding;
 	padding-right: $section-padding;
 	display: flex;
@@ -62,4 +63,11 @@
 			}
 		}
 	}
+}
+
+// for javascript
+.header-bg-onscroll {
+	background-color: #1950a9d7;
+	height: 90px;
+	transition: $scroll-transition;
 }
