@@ -29,11 +29,9 @@
 			justify-content: center;
 			gap: 25px;
 
-			.portfolio--row {
-				.portfolio--image {
-					height: 100%;
-					padding-bottom: 25px;
-				}
+			.portfolio--image {
+				height: 100%;
+				padding-bottom: 25px;
 			}
 		}
 	}
