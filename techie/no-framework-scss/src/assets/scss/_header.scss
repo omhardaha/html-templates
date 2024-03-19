@@ -1,3 +1,61 @@
 .header {
-	display: none;
+	width: 100%;
+	height: 200px;
+	position: fixed;
+	color: #fff;
+	background-color: #0946a977;
+	.header--container {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		.header--logo {
+			h2 {
+				font-weight: 400;
+				font-size: 2rem;
+			}
+		}
+		.header-menu--right {
+			display: flex;
+			gap: 30px;
+			align-items: center;
+
+			.header--nav {
+				.header--nav-list {
+					list-style: none;
+					display: flex;
+					gap: 30px;
+					.header--nav-item {
+						.header--link {
+							color: #ffffffcb; // assuming this is not an RGBA
+							text-decoration: none;
+							font-weight: 600;
+							&:hover {
+								color: #fff;
+								text-decoration: underline;
+								text-underline-offset: 6px;
+							}
+						}
+					}
+				}
+			}
+			.header-btn {
+				padding-left: 20px;
+				padding-right: 20px;
+				padding-top: 6px;
+				padding-bottom: 6px;
+				font-weight: 500;
+				background: transparent;
+				border: 2px solid #ffffff7a; /* Updated border color */
+				border-radius: 4px;
+				color: #fff;
+				&:hover {
+					transition: 1s ease-in-out;
+					border: 2px solid #fff;
+					color: $theme-color-1; /* Assuming $theme-color-1 is a variable */
+					cursor: pointer;
+				}
+			}
+		}
+	}
 }
