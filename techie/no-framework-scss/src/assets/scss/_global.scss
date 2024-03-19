@@ -1,4 +1,11 @@
+@mixin font-poppins {
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
 html {
+	@include font-poppins;
 	scroll-behavior: smooth;
 }
 $theme-color-1: #762bdc;
@@ -8,14 +15,6 @@ $section-padding: 50px;
 $section-title-color: #444444;
 $alt-section-bg: #f9f8ff;
 
-@mixin font-poppins {
-	font-family: "Poppins", sans-serif;
-	font-weight: 400;
-	font-style: normal;
-}
-img {
-	height: 10px;
-}
 .section-padding {
 	padding-left: $section-padding;
 	padding-right: $section-padding;
