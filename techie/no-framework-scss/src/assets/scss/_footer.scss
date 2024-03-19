@@ -37,26 +37,31 @@
 				font-weight: 200;
 			}
 		}
-		.footer--useful-links-col {
+		.footer--useful-links-col,
+		.footer--our-services-col {
+			grid-column: span 1 / span 1;
+			width: 100%;
+
 			.footer--links {
-				a {
-					@include links;
-					&:hover {
-						color: white;
-						text-decoration: underline;
+				.footer--list {
+					// list-style: none;
+					list-style-type: ">";
+					.footer--list-item {
+						a {
+							@include links;
+							line-height: 20px;
+							text-underline-offset: 6px;
+							&:hover {
+								color: white;
+								text-decoration: underline;
+							}
+							margin-left: 4px;
+						}
 					}
 				}
 			}
 		}
-		.footer--our-services-col {
-			a {
-				@include links;
-				&:hover {
-					color: white;
-					text-decoration: underline;
-				}
-			}
-		}
+
 		.footer--our-newsletter-col {
 			padding-left: 100px;
 			grid-column: span 3 / span 3;
