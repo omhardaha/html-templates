@@ -6,6 +6,7 @@
 			margin-bottom: 15px;
 
 			.faq--box {
+				cursor: pointer;
 				display: block;
 				padding: 25px;
 				border-radius: 4px;
@@ -29,11 +30,9 @@
 						font-weight: 10px;
 					}
 				}
-				.faq--details {
-					transition: 2s ease-in-out;
-					margin-left: 10px;
-					margin-top: 10px;
-				}
+			}
+			details[open] > summary {
+				color: #5846f9;
 			}
 		}
 	}
