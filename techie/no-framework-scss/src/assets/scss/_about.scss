@@ -10,6 +10,8 @@
 			font-weight: 600;
 			font-size: 2rem;
 			color: $section-title-color;
+			// margin-top: 10px;
+			margin-bottom: 20px;
 		}
 		.about--sub-heading {
 			// color: #858585bf;
@@ -17,8 +19,11 @@
 		.about--list-texts {
 			color: #464242cf;
 			text-decoration: none;
-			// list-style: georgian inside url("../images/");
+			list-style: disc inside url("../images/about/tick.svg");
 			margin-left: 0;
+			margin-top: 30px;
+			padding: 0;
+			margin-bottom: 30px;
 			li {
 				margin-top: 10px;
 			}
@@ -42,5 +47,9 @@
 	}
 	.about--right {
 		width: 100%;
+		img {
+			height: 100%;
+			object-fit: cover;
+		}
 	}
 }
