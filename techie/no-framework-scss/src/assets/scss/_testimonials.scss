@@ -15,6 +15,13 @@
 				box-shadow: #36363c33 0px 7px 29px 0px;
 				.testimonials--comment-text {
 					color: #423e3ee2;
+					.quote-start {
+						height: 20px;
+					}
+					.quote-end {
+						height: 20px;
+						transform: rotate(180deg);
+					}
 				}
 			}
 			.testimonials--user {
