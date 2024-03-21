@@ -21,16 +21,19 @@
 
 .section-heading {
 	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
 .section--title {
 	color: var(--section-primary-color);
 	text-transform: uppercase;
 	font-size: 1.8rem;
-	font-weight: 600;
+	font-weight: 700;
 }
 .section--desc {
 	color: var(-- --section-secondary-color);
+	font-size: 1.2rem;
 }
 .secondary-bg-color {
 	background-color: var(--section-bg-secondary-color);
