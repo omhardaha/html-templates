@@ -1,0 +1,27 @@
+:root {
+	--section-primary-color: #0f394c;
+	--section-secondary-color: #444444;
+}
+
+.section-padding-x {
+	padding-left: 55px;
+	padding-right: 55px;
+}
+.section-padding-y {
+	padding-left: 55px;
+	padding-right: 55px;
+}
+
+.section-heading {
+	text-align: center;
+}
+
+.section--title {
+	color: var(--section-primary-color);
+	text-transform: uppercase;
+	font-size: 1.8rem;
+	font-weight: 600;
+}
+.section--desc {
+	color: var(-- --section-secondary-color);
+}
