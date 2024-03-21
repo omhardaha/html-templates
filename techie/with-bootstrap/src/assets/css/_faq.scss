@@ -1,0 +1,39 @@
+.faq--container {
+	background-color: $theme-color-2;
+
+	.faq--lists {
+		.faq--items {
+			margin-bottom: 15px;
+
+			.faq--box {
+				cursor: pointer;
+				display: block;
+				padding: 25px;
+				border-radius: 4px;
+				width: 100%;
+				background-color: #fff;
+
+				.faq--summary {
+					list-style: none;
+					display: flex;
+					align-items: center;
+
+					&:hover {
+						color: $theme-color-2;
+					}
+					.faq--icon {
+						margin-right: 10px;
+						height: 20px;
+					}
+
+					.faq--question {
+						font-weight: 10px;
+					}
+				}
+			}
+			details[open] > summary {
+				color: #5846f9;
+			}
+		}
+	}
+}

@@ -1,0 +1,55 @@
+.about--container {
+	display: flex;
+	height: 100vh;
+	align-items: center;
+	margin-left: 55px;
+	margin-right: 55px;
+	.about--left {
+		width: 100%;
+		.about--heading {
+			font-weight: 600;
+			font-size: 2rem;
+			color: $section-title-color;
+			// margin-top: 10px;
+			margin-bottom: 20px;
+		}
+		.about--sub-heading {
+			// color: #858585bf;
+		}
+		.about--list-texts {
+			color: #464242cf;
+			text-decoration: none;
+			list-style: disc inside url("../images/about/tick.svg");
+			margin-left: 0;
+			margin-top: 30px;
+			padding: 0;
+			margin-bottom: 30px;
+			li {
+				margin-top: 10px;
+			}
+		}
+		.about--button {
+			padding-left: 30px;
+			padding-right: 30px;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			font-weight: 600;
+			background: linear-gradient(45deg, #5c42f5 0%, #7a28d9 100%);
+			border: 2px solid white;
+			border-radius: 4px;
+			color: white;
+			&:hover {
+				background: linear-gradient(45deg, #7a28d9 100%, #5c42f5 0%);
+				transition: 0.6s ease-in-out;
+				cursor: pointer;
+			}
+		}
+	}
+	.about--right {
+		width: 100%;
+		img {
+			height: 100%;
+			object-fit: cover;
+		}
+	}
+}
