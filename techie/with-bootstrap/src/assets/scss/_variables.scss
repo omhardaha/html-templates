@@ -8,3 +8,14 @@ $section-bg-color-secondary: #f9f8ff;
 // paddings
 $sec-px: 50px;
 $sec-py: 75px;
+
+// bootstrap
+$spacer: 1rem;
+$spacers: (
+	0: 0,
+	1: $spacer * 0.25,
+	2: $spacer * 0.5,
+	3: $spacer,
+	4: $spacer * 1.5,
+	5: $spacer * 3,
+);
