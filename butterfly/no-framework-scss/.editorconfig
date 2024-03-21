@@ -10,3 +10,4 @@ indent_style = tab                     # Use tabs for indentation
 insert_final_newline = true            # Ensure a newline is inserted at the end of files
 trim_trailing_whitespace = true        # Remove trailing whitespace at the end of lines
 
+
