@@ -1,6 +1,12 @@
 :root {
 	--section-primary-color: #0f394c;
 	--section-secondary-color: #444444;
+
+	--primary-text: #49b5e7;
+
+	--section-bg-primary-color: #ffff;
+	--section-bg-secondary-color: #f4fbfe;
+	--section-bg-gray-color: #f9f9f9;
 }
 
 .section-padding-x {
@@ -24,4 +30,7 @@
 }
 .section--desc {
 	color: var(-- --section-secondary-color);
+}
+.secondary-bg-color {
+	background-color: var(--section-bg-secondary-color);
 }
