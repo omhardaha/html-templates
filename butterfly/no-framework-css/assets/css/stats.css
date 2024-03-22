@@ -1,0 +1,29 @@
+.stats--container {
+	background: transparent;
+	text-align: center;
+	padding-top: 80px;
+	padding-block: 80px;
+}
+.stats--head {
+	color: var(--section-primary-color);
+	font-size: 2rem;
+}
+.stats--sub-head {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 1.3rem;
+}
+.stats--row {
+	justify-content: space-evenly;
+	display: flex;
+}
+.stats--item {
+	margin-top: 40px;
+}
+.stats-number {
+	font-size: 3rem;
+	color: var(--primary-sky);
+}
+.stats--type {
+	font-size: 1.2rem;
+}

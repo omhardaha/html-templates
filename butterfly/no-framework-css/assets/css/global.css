@@ -35,6 +35,9 @@
 	color: var(-- --section-secondary-color);
 	font-size: 1.2rem;
 }
+.primary-bg-color {
+	background-color: var(--section-bg-primary-color);
+}
 .secondary-bg-color {
 	background-color: var(--section-bg-secondary-color);
 }
