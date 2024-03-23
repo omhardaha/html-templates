@@ -2,6 +2,8 @@
 	display: flex;
 	gap: 25px;
 	height: 450px;
+	padding-top: 200px;
+	padding-left: 55px;
 	align-items: center;
 	background-color: var(--section-bg-gray-color);
 }
@@ -20,18 +22,28 @@
 	color: var(--primary-sky-dark);
 	margin-top: 20px;
 	margin-bottom: 20px;
+	font-size: 1.4rem;
 }
 .hero--btn {
 	background-color: var(--primary-sky);
 	border: none;
 	color: #fff;
 	padding: 10px;
+	font-weight: 500;
+	font-size: 1.2rem;
 	text-transform: uppercase;
-	padding-left: 25px;
-	padding-right: 25px;
+	padding-left: 30px;
+	padding-right: 30px;
+	border-radius: 3px;
 }
 .hero--right {
 	width: 100%;
+	/* box-sizing: border-box; */
 }
 .hero--image {
+	/* transform: scale(1.4); */
+	/* object-fit: contain; */
+	object-fit: cover;
+	object-position: 0 100%;
+	width: 1000px;
 }

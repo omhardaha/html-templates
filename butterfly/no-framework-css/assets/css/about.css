@@ -1,0 +1,39 @@
+.about--container {
+	display: flex;
+	gap: 25px;
+}
+.about--left {
+}
+.about--right {
+}
+.about--head {
+	color: var(--section-primary-color);
+	font-weight: 600;
+}
+.about--desc {
+}
+.about--features {
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+}
+.about--item {
+	display: flex;
+	gap: 25px;
+}
+.about--logo {
+	display: flex;
+}
+.about--logo img {
+	height: 90px;
+	width: 90px;
+	border: 2px solid var(--primary-sky);
+	border-radius: 100%;
+	padding: 30px;
+}
+.about--text {
+}
+.about--heading {
+}
+.about--sub-heading {
+}

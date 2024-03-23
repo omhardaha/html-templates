@@ -1,0 +1,30 @@
+.service--cards {
+	display: grid;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+	gap: 25px;
+}
+.service--card {
+	display: flex;
+	height: 200px;
+	border-radius: 10px;
+	gap: 30px;
+	padding: 20px 0 20px 0;
+	background-color: #fff;
+	justify-content: center;
+	align-items: center;
+}
+.service--image img {
+	/* height: 800px; */
+	object-fit: none;
+	object-position: 0;
+}
+.service--card-text {
+	/* font-size: 1.2rem; */
+}
+.service--head {
+	margin-top: 10px;
+	font-size: 1.2rem;
+}
+.service--sub-head {
+	font-size: 1.2rem;
+}
