@@ -1,39 +1,44 @@
 .about--container {
 	display: flex;
-	gap: 25px;
+	gap: 35px;
 }
 .about--left {
+	width: 95%;
 }
 .about--right {
 }
 .about--head {
 	color: var(--section-primary-color);
-	font-weight: 600;
+	font-weight: 800;
 }
 .about--desc {
+	font-size: 1.1rem;
 }
 .about--features {
 	display: flex;
 	flex-direction: column;
+	justify-content: space-evenly;
 	gap: 25px;
 }
 .about--item {
 	display: flex;
 	gap: 25px;
+	margin-top: 30px;
 }
 .about--logo {
 	display: flex;
 }
 .about--logo img {
-	height: 90px;
-	width: 90px;
-	border: 2px solid var(--primary-sky);
+	height: 70px;
+	width: 70px;
+	border: 2px solid var(--primary-sky-light);
 	border-radius: 100%;
-	padding: 30px;
+	padding: 15px;
 }
 .about--text {
 }
 .about--heading {
+	font-size: 1.2rem;
 }
 .about--sub-heading {
 }
