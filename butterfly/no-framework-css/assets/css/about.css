@@ -26,14 +26,28 @@
 	margin-top: 30px;
 }
 .about--logo {
+	height: fit-content;
+	justify-content: center;
+	align-items: center;
+	border-radius: 100%;
+	border: 2px solid var(--primary-sky-light);
+	padding: 10px;
+}
+.about--logo:hover {
 	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--primary-sky);
+	transition: 0.2s ease-in-out;
 }
 .about--logo img {
-	height: 70px;
-	width: 70px;
-	border: 2px solid var(--primary-sky-light);
-	border-radius: 100%;
-	padding: 15px;
+	height: 35px;
+	width: 100%;
+	object-fit: contain;
+}
+.about--logo img:hover {
+	transition: 0.2s ease-in-out;
+	filter: brightness(0) invert(1);
 }
 .about--text {
 }
