@@ -1,0 +1,25 @@
+.common-section {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	text-align: center;
+}
+.common-head {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 2rem;
+	color: var(--common-head-color);
+	font-family: "Raleway";
+}
+.head-shadow:before {
+	content: attr(data-title);
+	transform: translateY(20px) scale(1.8);
+	display: block;
+	margin-top: -10px;
+	opacity: 0.06;
+}
+.common-s-head {
+	color: var(--common-head-color);
+	text-align: center;
+	font-family: "Open Sans";
+}
