@@ -1,3 +1,6 @@
 :root {
 	--common-head-color: #5f687b;
 }
+body {
+	font-family: "Open Sans", sans-serif;
+}
