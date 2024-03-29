@@ -1,0 +1,32 @@
+.testimonials--container {
+	background-image: url("https://www.hdwallpapers.in/download/dark_blue_background_hd_navy_blue-1600x900.jpg");
+	/* background-image: ; */
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
+	text-align: center;
+	padding-left: 180px;
+	padding-right: 180px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.testimonial--user {
+}
+.testimonial-user-image-ctn {
+	display: block;
+}
+.testimonial--user-image {
+	/* display: block; */
+	height: 80px;
+	border: 7px solid rgba(73, 75, 80, 0.153);
+	border-radius: 100%;
+}
+.testimonials--user-name {
+	font-size: 1.2rem;
+}
+.testimonial--user-work {
+}
+.testimonials--user-comment {
+	font-size: 1.2rem;
+	margin-top: 20px;
+}
