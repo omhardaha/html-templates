@@ -1,5 +1,5 @@
 .testimonials--container {
-	background-image: url("https://www.hdwallpapers.in/download/dark_blue_background_hd_navy_blue-1600x900.jpg");
+	background-image: url("../images/testimonials/bg.jpg");
 	/* background-image: ; */
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -13,18 +13,21 @@
 .testimonial--user {
 }
 .testimonial-user-image-ctn {
-	display: block;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 10px;
 }
 .testimonial--user-image {
 	/* display: block; */
-	height: 80px;
-	border: 7px solid rgba(73, 75, 80, 0.153);
+	height: 120px;
+	border: 8px solid rgba(255, 255, 255, 0.153);
 	border-radius: 100%;
 }
 .testimonials--user-name {
 	font-size: 1.2rem;
 }
 .testimonial--user-work {
+	color: #ffffffba;
 }
 .testimonials--user-comment {
 	font-size: 1.2rem;
