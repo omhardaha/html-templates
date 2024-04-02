@@ -13,8 +13,8 @@
 }
 .head-shadow:before {
 	content: attr(data-title);
-	transform: translateY(20px) scale(1.8);
-	display: block;
+	transform: translateY(-10px) scale(1.8);
+	position: absolute;
 	margin-top: -10px;
 	opacity: 0.06;
 }
@@ -22,4 +22,8 @@
 	color: var(--common-head-color);
 	text-align: center;
 	font-family: "Open Sans";
+}
+.common-pad-x {
+	padding-left: 55px;
+	padding-right: 55px;
 }
