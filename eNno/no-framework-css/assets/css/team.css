@@ -1,12 +1,41 @@
 .team--container {
+	display: grid;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+	gap: 25px;
 }
 .team--user {
+	background-color: #fff;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+}
+.team--user img {
+	width: 100%;
 }
 .team--user-name {
+	color: var(--primary-black);
+	margin-top: 20px;
+	font-family: "Raleway";
 }
 .team--user-type {
+	font-size: 0.8rem;
 }
 .team--user-motto {
+	color: var(--secondary-stone);
+	font-style: italic;
+	font-size: 0.9rem;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 .team--user-accounts {
+	display: flex;
+	gap: 5px;
+	justify-content: center;
+}
+.team--user-accounts svg {
+	color: var(--secondary-stone);
+	height: 20px;
+	width: 20px;
 }
