@@ -8,7 +8,7 @@
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: 2rem;
-	color: var(--common-head-color);
+	color: var(--primary-grey);
 	font-family: "Raleway";
 }
 .head-shadow:before {
@@ -19,7 +19,7 @@
 	opacity: 0.06;
 }
 .common-s-head {
-	color: var(--common-head-color);
+	color: var(--primary-grey);
 	text-align: center;
 	font-family: "Open Sans";
 }

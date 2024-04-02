@@ -3,7 +3,7 @@
 	padding: 2rem;
 	justify-content: space-between;
 	align-items: center;
-	color: var(--primary-color);
+	color: var(--primary-grey);
 	padding-top: 15px;
 	padding-bottom: 15px;
 	box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
@@ -24,11 +24,11 @@
 }
 .nav-link a {
 	font-weight: 700;
-	color: var(--primary-color);
+	color: var(--primary-grey);
 }
 .nav-link a:hover {
 	transition: 0.3s ease-in;
-	color: var(--secondary-color);
+	color: var(--primary-green);
 }
 .nav-btn {
 	font-size: 0.9rem;
@@ -37,7 +37,7 @@
 	padding-top: 10px;
 	padding-bottom: 10px;
 	background: transparent;
-	border: 1px solid var(--primary-color);
+	border: 1px solid var(--primary-grey);
 	border-radius: 5px;
 }
 .nav-btn {
@@ -51,6 +51,6 @@
 }
 .nav-btn:hover {
 	transition: 0.3s ease-in;
-	background-color: var(--blue);
+	background-color: var(--primary-blue);
 	color: #fff;
 }

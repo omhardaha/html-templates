@@ -1,8 +1,8 @@
 :root {
-	--common-head-color: #5f687b;
-	--primary-color: #5f687b;
-	--secondary-color: #16df7e;
-	--blue: #206bfb;
+	--primary-grey: #5f687b;
+	--secondary-grey: #858ea1;
+	--primary-green: #16df7e;
+	--primary-blue: #206bfb;
 }
 body {
 	font-family: "Open Sans", sans-serif;
