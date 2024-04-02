@@ -1,12 +1,26 @@
 .portfolio--portfolios {
 }
 .portfolio--filter-buttons {
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+	margin-bottom: 40px;
 }
 .portfolio--btn {
+	font-weight: 600;
+	font-size: 0.9rem;
+	color: var(--primary-black);
+}
+.portfolio--btn:hover {
+	color: var(--primary-green);
 }
 .portfolio--grid {
+	display: grid;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+	gap: 25px;
 }
 .portfolio--item {
 }
 .portfolio--image {
+	width: 100%;
 }
