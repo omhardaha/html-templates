@@ -1,12 +1,32 @@
-.services-section--cards {
+.services--cards {
+	display: grid;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+	gap: 25px;
+	background-color: var(--primary-stone);
 }
-.service-card {
+.services--card {
+	padding: 20px;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	text-align: center;
+	background-color: #fff;
 }
-.service--image-container {
+.services--card:hover .service--head {
+	color: var(--primary-green);
+	transition: 0.3s ease-in;
+	cursor: pointer;
 }
-.service--img {
+.service--logo svg {
+	color: var(--primary-green);
+	height: 30px;
+	width: 30px;
 }
 .service--head {
+	color: var(--primary-grey);
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
-.service--desc {
+.services--desc {
+	color: var(--primary-black);
+	font-size: 0.9rem;
 }
