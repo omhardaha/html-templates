@@ -1,14 +1,42 @@
 .about--container {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	gap: 25px;
 }
 .about-section--left {
 }
-.about-sub-heading {
+.about-section--image img {
+	width: 100%;
+}
+.about--head {
+	color: var(--primary-black);
+	font-size: 2rem;
+	margin-bottom: 10px;
+}
+.about--sub-heading {
+	color: var(--primary-black);
 }
 .about--list-items {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
-.about--item {
+.about--list-item {
+	display: flex;
+	grid-template-columns: repeat(2);
+}
+.about--list-item svg {
+	color: var(--primary-green);
+	height: 20px !important;
+	width: 20px !important;
+	font-size: 250px;
+	margin-right: 10px;
 }
 .about--list-text {
+	color: var(--primary-black);
 }
-.about--image {
+.about--bottom-text {
+	color: var(--primary-black);
 }
