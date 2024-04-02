@@ -1,6 +1,33 @@
 .calltoaction--container {
+	padding-top: 55px;
+	padding-bottom: 55px;
+	background-color: var(--primary-green);
+	text-align: center;
+	color: #fff;
+}
+.calltoaction--head {
+	color: #fff;
+	font-size: 1.6rem;
 }
 .calltoaction--text {
+	margin-bottom: 20px;
+	margin-top: 15px;
 }
 .calltoaction--btn {
+	font-size: 1.2rem;
+	background: transparent;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: 2px solid #fff;
+	color: #fff;
+	border-radius: 5px;
+	text-transform: uppercase;
+}
+.calltoaction--btn:hover {
+	background-color: var(--primary-blue);
+	border: none;
+	border: 2px solid transparent;
+	transition: 0.3s ease-in;
 }
