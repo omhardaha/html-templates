@@ -12,6 +12,10 @@
 	padding-bottom: 30px;
 	border-radius: 6px;
 }
+.features--item:hover .features--title {
+	cursor: pointer;
+	color: var(--primary-green);
+}
 .featues--logo svg {
 	color: var(--primary-green);
 	height: 40px !important;
