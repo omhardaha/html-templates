@@ -1,0 +1,30 @@
+.features--list {
+	display: flex;
+	gap: 25px;
+	background: #fff;
+	margin-top: -90px;
+	z-index: 5;
+}
+.features--item {
+	background-color: var(--primary-stone);
+	padding: 25px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-radius: 6px;
+}
+.featues--logo svg {
+	color: var(--primary-green);
+	height: 40px !important;
+	width: 40px !important;
+	font-size: 250px;
+}
+.features--title {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	color: var(--primary-grey);
+	font-weight: 600;
+}
+.featues--desc {
+	color: var(--primary-grey);
+	font-size: 0.9rem;
+}
