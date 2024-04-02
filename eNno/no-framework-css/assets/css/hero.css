@@ -1,10 +1,18 @@
 .hero--container {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
 }
-.hero__heading {
+.hero--head {
+	font-size: 3rem;
+	line-height: 60px;
+}
+.hero--sub-head {
 }
 .hero-button {
 }
-.hero--image {
+.hero--right {
+}
+.hero--img {
+	width: 100%;
+	z-index: -1;
 }
