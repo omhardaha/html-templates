@@ -10,13 +10,14 @@
 	font-size: 2rem;
 	color: var(--primary-grey);
 	font-family: "Raleway";
+	padding-bottom: 25px;
 }
 .head-shadow:before {
 	content: attr(data-title);
-	transform: translateY(-10px) scale(1.8);
+	transform: translateY(-5px) scale(1.7);
 	position: absolute;
 	margin-top: -10px;
-	opacity: 0.06;
+	opacity: 0.1;
 }
 .common-s-head {
 	color: var(--primary-grey);
