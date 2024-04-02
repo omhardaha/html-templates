@@ -1,8 +1,16 @@
-.stats--container {
+.stats-items {
+	display: flex;
+	justify-content: space-around;
 }
 .stats-item {
+	text-align: center;
 }
-.stats--number {
+.stats-number {
+	color: var(--primary-green);
+	font-size: 3rem;
+	margin-bottom: 10px;
+	display: block;
 }
 .stats--text {
+	font-size: 0.7rem;
 }
