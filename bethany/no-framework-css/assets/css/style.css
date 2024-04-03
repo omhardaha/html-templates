@@ -1,3 +1,15 @@
+:root {
+	--primary-green: #009970;
+	--primary-stone: #f6f6f7;
+
+	--primary-black: #36343a;
+	--secondary-black: #444444;
+
+	--primary-grey: #848484;
+	--secondary-grey: #686470;
+
+	--primary-stone: #a8a5ae;
+}
 * {
 	font-family: "Raleway", sans-serif;
 }
