@@ -379,36 +379,61 @@
 					<ul class="contact--info-list">
 						<li class="contact--info-item">
 							<div class="contact--logo-ctn">
-								<i class="contact--logo" data-lucide="location"></i>
+								<i class="contact--logo" data-lucide="map-pinned"></i>
 							</div>
 							<div class="contact--item-text">
-								<h3 class="contact--title">Location</h3>
+								<h3 class="contact--title">Location:</h3>
 								<p class="contact--detail">A108 Adam Street, New York, NY 535022</p>
 							</div>
 						</li>
 						<li class="contact--info-item">
 							<div class="contact--logo-ctn">
-								<i class="contact--logo" data-lucide="location"></i>
+								<i class="contact--logo" data-lucide="mail"></i>
 							</div>
 							<div class="contact--item-text">
-								<h3 class="contact--title">Email</h3>
+								<h3 class="contact--title">Email:</h3>
 								<p class="contact--detail">info@example.com</p>
 							</div>
 						</li>
 						<li class="contact--info-item">
 							<div class="contact--logo-ctn">
-								<i class="contact--logo" data-lucide="location"></i>
+								<i class="contact--logo" data-lucide="smartphone"></i>
 							</div>
 							<div class="contact--item-text">
-								<h3 class="contact--title">Call</h3>
+								<h3 class="contact--title">Call:</h3>
 								<p class="contact--detail">+1 5589 55488 55s
 								</p>
 							</div>
 						</li>
 					</ul>
+					<iframe class="map"
+						src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d117902.67449213778!2d80.2660511!3d22.5619458!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3980919b5600fff5%3A0x215f2c5f5f801685!2sKINGFISHER%20WATER%20PARK!5e0!3m2!1sen!2sfr!4v1712166082222!5m2!1sen!2sfr"
+						height="350" style="border:0;" allowfullscreen="" loading="lazy"
+						referrerpolicy="no-referrer-when-downgrade"></iframe>
 				</div>
 				<div class="contact--right">
-
+					<div class="contact--form">
+						<div class="contact--item column-1">
+							<label class="contact--label" for="contact-message">Your Name</label>
+							<input class="contact--input" type="text" name="contact-name" id="contact-name">
+						</div>
+						<div class="contact--item column-1">
+							<label class="contact--label" for="contact-message">Your Email</label>
+							<input class="contact--input" type="text" name="contact-email" id="contact-email">
+						</div>
+						<div class="contact--item column-2">
+							<label class="contact--label" for="contact-message">Subject</label>
+							<input class="contact--input" type="text" name="contact-subject" id="contact-subject">
+						</div>
+						<div class="contact--item column-2">
+							<label class="contact--label" for="contact-message">Message</label>
+							<textarea class="contact--input" type="text" name="contact-message" id="contact-message" cols="90"
+								rows="15"></textarea>
+						</div>
+						<div class="contact--item contact--submit-btn-ctn column-2">
+							<button type="submit" class="contact-sub-btn">Send Message</button>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>

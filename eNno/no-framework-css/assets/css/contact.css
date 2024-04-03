@@ -1,0 +1,114 @@
+.contact--container {
+	display: grid;
+	grid-template-columns: repeat(10, minmax(0, 1fr));
+	gap: 25px;
+}
+.contact--left {
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+	grid-column: span 4 / span 4;
+	background-color: var(--primary-stone);
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-top: 3px solid var(--primary-green);
+	border-bottom: 3px solid var(--primary-green);
+}
+.contact--info-list {
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+}
+.contact--info-item {
+	display: flex;
+	gap: 15px;
+	align-items: center;
+}
+.contact--right {
+	grid-column: span 6 / span 6;
+	background-color: var(--primary-stone);
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-top: 3px solid var(--primary-green);
+	border-bottom: 3px solid var(--primary-green);
+}
+.map {
+	width: 100%;
+}
+.contact--logo {
+	color: var(--primary-green);
+}
+.contact--logo-ctn {
+	display: flex;
+	padding: 10px;
+	border-radius: 100%;
+	background-color: #fff;
+	width: min-content;
+	height: min-content;
+}
+.contact--info-item:hover .contact--logo {
+	color: #fff;
+	transition: 1s ease;
+}
+.contact--info-item:hover .contact--logo-ctn {
+	background-color: var(--primary-green);
+	transition: 1s ease;
+}
+.contact--title {
+	color: var(--primary-grey);
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+.contact--detail {
+	color: var(--secondary-grey);
+	font-size: 0.9rem;
+}
+
+.contact--form {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	gap: 25px;
+}
+.contact--item {
+}
+.contact--label {
+	display: block;
+	color: var(--primary-grey);
+}
+.contact--input {
+	padding: 10px;
+	width: 100%;
+	/* border: 0.4px solid var(--primary-grey); */
+	border: none;
+	border: 1px solid rgba(128, 128, 128, 0.211);
+	margin-top: 2px;
+}
+.column-1 {
+	grid-column: span 1 / span 1;
+}
+.column-2 {
+	grid-column: span 2 / span 2;
+}
+.contact--submit-btn-ctn {
+	text-align: center;
+}
+
+.contact-sub-btn {
+	color: #fff;
+	background-color: var(--primary-green);
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: none;
+	border-radius: 3px;
+	font-size: 1.1rem;
+}
+.contact-sub-btn:hover {
+	transition: 0.3s ease-in;
+	background-color: var(--primary-blue);
+}
