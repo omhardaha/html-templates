@@ -1,0 +1,13 @@
+root = true
+
+# Define default formatting settings for all files
+[*]
+charset = utf-8                        # Set character encoding to UTF-8
+end_of_line = lf                       # Set line endings to LF (Unix-style)
+indent_size = 4                        # Set the indentation size to 4 spaces
+tab_width = 2                          # Set line endings to LF (Unix-style)
+indent_style = tab                     # Use tabs for indentation
+insert_final_newline = true            # Ensure a newline is inserted at the end of files
+trim_trailing_whitespace = true        # Remove trailing whitespace at the end of lines
+
+
