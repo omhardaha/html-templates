@@ -1,0 +1,59 @@
+.testimonials--containers {
+	display: grid;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+	justify-content: space-around;
+}
+
+.testimonials--card {
+	padding: 10px;
+	margin: 10px;
+}
+
+.testimonials--quotes {
+	background: white;
+	padding: 20px;
+	border-radius: 4px;
+	padding-bottom: 70px;
+	color: var(--primary-black);
+}
+
+.testimonials--user {
+	margin-left: 20px;
+	position: relative;
+	top: -40px;
+}
+
+.testimonials--user h2 {
+	font-size: 1.1rem;
+	margin: 0;
+	margin-bottom: 4px;
+	font-weight: 600;
+	color: var(--primary-black);
+}
+
+.testimonials--user span {
+	font-size: 0.9rem;
+	margin-top: 10px;
+	color: var(--secondary-grey);
+}
+
+.testimonials--quotes .testimonials--start-quote {
+	transform: rotate(180deg);
+}
+
+.testimonials--quotes p {
+	display: inline;
+}
+
+.testimonials--user-image {
+	width: 90px;
+	height: 90px;
+	object-fit: cover;
+	border-radius: 100%;
+	border: 5px solid white;
+}
+
+svg {
+	fill: #e4e6ea;
+	stroke: #e4e6ea;
+}
