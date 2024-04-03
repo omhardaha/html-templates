@@ -1,27 +1,13 @@
-.common-section {
-	padding-top: 40px;
-	padding-bottom: 40px;
-	text-align: center;
-}
 .common-head {
-	text-align: center;
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: 2rem;
-	color: var(--primary-grey);
+	color: var(--primary-black);
 	font-family: "Raleway";
 	padding-bottom: 25px;
 }
-.head-shadow:before {
-	content: attr(data-title);
-	transform: translateY(-5px) scale(1.7);
-	position: absolute;
-	margin-top: -10px;
-	opacity: 0.1;
-}
 .common-s-head {
-	color: var(--primary-grey);
-	text-align: center;
+	color: var(--secondary-black);
 	font-family: "Open Sans";
 }
 .common-pad-x {
