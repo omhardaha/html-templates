@@ -1,21 +1,46 @@
 .team--container {
-	/* CSS properties */
+	display: grid;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+	gap: 25px;
 }
 
 .team--left {
-	/* CSS properties */
+	grid-column: span 1 / span 1;
 }
 
 .team--right {
-	/* CSS properties */
+	grid-column: span 2 / span 2;
 }
 
 .team--cards {
-	/* CSS properties */
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	gap: 25px;
 }
 
-.team--user {
-	/* CSS properties */
+.team--user {display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	box-shadow: #0000001a 0px 4px 12px;
+	padding: 10px 20px;
+}
+.team--img-ctn{
+	overflow: hidden;
+	border-radius: 100%;
+	width: max-content;
+	height: max-content;
+}
+.team--img {
+	overflow: hidden;
+	transition: 0.3s ease-in-out;
+	width: 150px;
+	height: 150px;
+}
+.team--user:hover .team--img {
+	transform: scale(1.1);
+	transition: 0.3s ease-in-out;
 }
 
 .team--user-name {
