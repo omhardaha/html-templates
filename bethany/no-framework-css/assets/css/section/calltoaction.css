@@ -1,15 +1,44 @@
 .calltoaction--container {
-	/* CSS properties */
+	background: url("https://bootstrapmade.com/demo/templates/Bethany/assets/img/cta-bg.jpg")
+		fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0px -100px;
+	text-align: center;
 }
-
+.calltoaction--opac{
+	background-color: #000000bc;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	/* height: 20vh; */
+}
 .calltoaction--head {
-	/* CSS properties */
+	font-size: 1.9rem;
 }
 
 .calltoaction--desc {
-	/* CSS properties */
+	font-size: 1rem;
+	line-height: 1.5rem;
+	font-weight: 500;
+	margin-top: 10px;
+	margin-bottom: 25px;
 }
 
 .calltoaction--btn {
-	/* CSS properties */
+	color: #fff;
+	border-radius: 100px;
+	background-color: transparent;
+	border: 2px solid #fff;
+	padding: 0.6em 1.7em;
+	margin-right: 15px;
+	font-size: 1.1rem;
+	font-weight: 500;
+}
+.calltoaction--btn:hover {
+	background-color: var(--primary-green);
+	transition: 0.3s ease-in;
+	border: 2px solid var(--primary-green);
 }

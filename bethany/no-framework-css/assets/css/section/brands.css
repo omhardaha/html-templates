@@ -1,9 +1,18 @@
-.brands--container{
-
+.brands--container {
+	display: flex;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
-.brands-logo{
-
+.brands--logo {
+	width: 100%;
 }
-.brands-image{
-
+.brands--image {
+	/* height: 30px; */
+	width: 80px;
+	filter: grayscale();
+}
+.brands--image:hover {
+	transform: scale(1.1);
+	filter: none;
+	transition: 0.3s ease-in;
 }

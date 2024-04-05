@@ -18,6 +18,10 @@
 	padding-top: 40px;
 	padding-bottom: 40px;
 }
+.pad-y-lg {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
 .bg-secondary {
 	background-color: var(--primary-stone);
 }

@@ -1,16 +1,21 @@
 .stats--container {
-	/* CSS properties */
+	background-color: var(--primary-green);
 }
 .stats--row {
-	/* CSS properties */
+	display: flex;
+	justify-content: space-around;
+
+	color: #fff;
 }
 
 .stats--item {
 	/* CSS properties */
+	text-align: center;
 }
 
 .stats--number {
-	/* CSS properties */
+	font-size: 2.5rem;
+	margin-bottom: 10px;
 }
 
 .stats--type {
