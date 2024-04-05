@@ -1,12 +1,40 @@
-.hero--container{
-background-color: #000;
+.hero--container {
+	background: url("https://bootstrapmade.com/demo/templates/Bethany/assets/img/hero-bg.jpg")
+		fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0px -100px;
+	text-align: center;
 }
-.hero--head{
-
+.hero--headings {
+	background-color: #00000097;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 80vh;
 }
-.hero--desc{
-
+.hero--head {
+	font-weight: 700;
+	font-size: 3rem;
+	margin-bottom: 15px;
+	margin-top: 25px;
 }
-.hero--get-started{
-
+.hero--desc {
+	margin-bottom: 45px;
+}
+.hero--get-started {
+	color: #fff;
+	border-radius: 100px;
+	background-color: transparent;
+	border: 2px solid #fff;
+	padding: 0.6em 1.7em;
+	margin-right: 15px;
+	font-weight: 500;
+}
+.hero--get-started:hover {
+	background-color: var(--primary-green);
+	transition: 0.3s ease-in;
+	border: 2px solid var(--primary-green);
 }
