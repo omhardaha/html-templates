@@ -1,32 +1,47 @@
 .testimonials--container {
-	/* CSS properties */
+	display: grid;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+	gap: 35px;
 }
 
 .testimonials--left {
-	/* CSS properties */
+	grid-column: span 1 / span 1;
 }
 .testimonials--right {
-	/* CSS properties */
+	grid-column: span 2 / span 2;
+	margin-top: 20px;
 }
 
 .testimonials--cards {
-	/* CSS properties */
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	gap: 50px;
 }
 
 .testimonials--card {
-	/* CSS properties */
+	text-align: center;
+	background-color: #fff;
+	padding: 30px;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
 .testimonials--quotes {
-	/* CSS properties */
+	display: inline;
 }
 
 .testimonials--start-quote {
-	/* CSS properties */
+	display: inline;
 }
 
+.testimonials--comment{
+	font-weight: 500;
+	color: var(--secondary-grey);
+	line-height: 25px;
+	display: inline;
+}
 .testimonials--end-quote {
-	/* CSS properties */
+	transform: rotate(180deg);
+	display: inline;
 }
 
 .testimonials--user {
@@ -34,5 +49,16 @@
 }
 
 .testimonials--user-image {
-	/* CSS properties */
+	border-radius: 100%;
+	width: max-content;
+	height: 100px;
+	margin: 10px 0;
+}
+.testimonials--user-name {
+	font-size: 1rem;
+}
+.testimonials--user-exp {
+	color: var(--primary-grey);
+	margin-top: 10px;
+	font-size: 0.9rem;
 }
